@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" name="XMLConfigTest" >
+    <Properties>
+        <property name="BASE_PATH">logs</property>
+        <property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss}- %M- %level: %msg%n</property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+
+        <File name="File" fileName="${BASE_PATH}/autotest.log" append="true" immediateFlush="true" >
+            <PatternLayout>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+        </File>
+
+<!--        <RollingFile name="RollingFile" fileName="${BASE_PATH}/autotest.log" filePattern="autotest-%d{yyyyMMdd}-%i.log">-->
+<!--            <PatternLayout>-->
+<!--                <Pattern>${LOG_PATTERN}</Pattern>-->
+<!--            </PatternLayout>-->
+<!--            <Policies>-->
+<!--                <TimeBasedTriggeringPolicy interval="1"/>-->
+<!--                <SizeBasedTriggeringPolicy size="500MB"/>-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="7"/>-->
+<!--        </RollingFile>-->
+    </Appenders>
+
+    <Loggers>
+        <Root level="trace" >
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+
+</Configuration>

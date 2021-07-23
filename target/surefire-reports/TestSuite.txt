@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.839 s <<< FAILURE! - in TestSuite
+test11(NgTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Fail
+	at NgTest.test11(NgTest.java:34)
+
+test2(NgTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: AssertionError
+	at NgTest.test2(NgTest.java:27)
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.839" tests="4" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="groupId" value="com.ty"/>
+    <property name="java.class.path" value="E:\maven\apache-maven\boot\plexus-classworlds-2.6.0.jar;E:\maven\apache-maven\boot\plexus-classworlds.license"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="maven.conf" value="E:\maven\apache-maven/conf"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="artifactld" value="ty"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\IntelliJ\jbr\bin"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.2 -s E:\maven\apache-maven\conf\settings.xml -Dmaven.repo.local=E:\maven\apache-maven\repository -Dartifactld=ty -DgroupId=com.ty -Dversion=1.0-ty test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="E:\maven\apache-maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="D:\IntelliJ\jbr"/>
+    <property name="version" value="1.0-ty"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-b1341.57"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="archetypeCatalog" value="local"/>
+    <property name="java.vm.name" value="Dynamic Code Evolution 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-11.0.11.9-1341.57-dcevm"/>
+    <property name="maven.ext.class.path" value="D:\IntelliJ\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.2"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="E:\github\selenium_learning"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\github\selenium_learning"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\IntelliJ\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\git\Git\cmd;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;E:\Python37\;E:\maven\apache-maven\\bin;E:\gradle\gradle-6.9\\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;E:\Python37\;E:\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\PyCharm\bin;;E:\JDK\bin;E:\JDK\jre\bin;E:\Idea\IntelliJ IDEA 2019.2.4\bin;;D:\IntelliJ\bin;;E:\WebDriver;E:\allureReport\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="11.0.11+9-b1341.57"/>
+    <property name="classworlds.conf" value="E:\maven\apache-maven\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="E:\maven\apache-maven\repository"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testBrowser" classname="BrowserTest" time="4.767"/>
+  <testcase name="test1" classname="NgTest" time="0.002"/>
+  <testcase name="test11" classname="NgTest" time="0.008">
+    <failure message="Fail" type="java.lang.AssertionError">java.lang.AssertionError: Fail
+	at NgTest.test11(NgTest.java:34)
+</failure>
+    <system-out><![CDATA[afterMethod
+beforeMethod
+test11 from group1
+]]></system-out>
+  </testcase>
+  <testcase name="test2" classname="NgTest" time="0.001">
+    <failure message="AssertionError" type="java.lang.AssertionError">java.lang.AssertionError: AssertionError
+	at NgTest.test2(NgTest.java:27)
+</failure>
+    <system-out><![CDATA[afterMethod
+beforeMethod
+test2 from group2
+]]></system-out>
+  </testcase>
+</testsuite>
